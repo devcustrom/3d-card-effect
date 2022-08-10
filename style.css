@@ -28,6 +28,7 @@ body {
 }
 
 .sneaker {
+  transform-style: preserve-3d;
   min-height: 35vh;
   display: flex;
   align-items: center;
@@ -50,7 +51,9 @@ body {
   border-radius: 50%;
   z-index: 1;
 }
-
+.info {
+  transform-style: preserve-3d;
+}
 .info h1 {
   font-size: 3rem;
   transition: all 0.75s ease-out;
